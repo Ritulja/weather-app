@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "./Search.css";
 
 export default function Search() {
   let [city, setShowCity] = useState("");
@@ -41,7 +42,7 @@ export default function Search() {
       <div className="DescriptionForm">
         {form}
         <ul>
-          <li>Temperature: {Math.round(description.temperature)}°C</li>
+          <li>Temperature {Math.round(description.temperature)}°C</li>
           <li>Description: {description.description}</li>
           <li>Humidity: {description.humidity}%</li>
           <li>Wind: {description.wind}m/s</li>
