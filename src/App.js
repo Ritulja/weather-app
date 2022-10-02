@@ -11,10 +11,16 @@ function App() {
       <p>
         {" "}
         This project was coded by{" "}
-        <a href="https://taupe-bienenstitch-309e9f.netlify.app/">
+        <a
+          href="https://taupe-bienenstitch-309e9f.netlify.app/"
+          target="_blank"
+        >
           Margareta Krajnikovics
         </a>{" "}
-        and is <a href="https://github.com/Ritulja/weather-app">open-source.</a>
+        and is{" "}
+        <a href="https://github.com/Ritulja/weather-app" target="_blank">
+          open-source.
+        </a>
       </p>
     </div>
   );
