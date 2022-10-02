@@ -14,11 +14,16 @@ function App() {
         <a
           href="https://taupe-bienenstitch-309e9f.netlify.app/"
           target="_blank"
+          rel="noreferrer"
         >
           Margareta Krajnikovics
         </a>{" "}
         and is{" "}
-        <a href="https://github.com/Ritulja/weather-app" target="_blank">
+        <a
+          href="https://github.com/Ritulja/weather-app"
+          target="_blank"
+          rel="noreferrer"
+        >
           open-source.
         </a>
       </p>
